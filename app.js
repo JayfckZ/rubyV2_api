@@ -17,6 +17,26 @@ app.get('/category/:category', (req, res) => {
     }
 })
 
+app.get('/featured', (req, res) => {
+    const featuredVehicles = vehicles.filter(vehicle => vehicle.featured)
+    
+    if (featuredVehicles.length > 0) {
+        res.json(featuredVehicles);
+    } else {
+        res.status(404).json({ message: 'Veículos em destaque não encontrados' });
+    }
+})
+
+app.get('/sale', (req, res) => {
+    const onSaleVehicles = vehicles.filter(vehicle => vehicle.on_sale)
+
+    if (onSaleVehicles.length > 0) {
+        res.json(onSaleVehicles)
+    } else {
+        res.status(404).json({ message: 'Veículos em promoção não encontrados' })
+    }
+})
+
 app.get('/vehicle/:id', (req, res) => {
     const id = parseInt(req.params.id)
     const vehicle = vehicles.find(vehicle => vehicle.id === id)
