@@ -1,0 +1,694 @@
+[
+    {
+        "id": 1,
+        "name": "Ferrari 488 GTB",
+        "speed": "330 km/h",
+        "price": {
+        "old_price": null,
+        "current_price": "$250,000"
+        },
+        "images": {
+        "image1": "https://wallpaperaccess.com/full/3132287.jpg",
+        "image2": "https://wallpaperaccess.com/full/3115484.jpg",
+        "image3": "https://wallpaperaccess.com/full/3132338.jpg"
+        },
+        "year": 2021,
+        "brand": "Ferrari",
+        "engine": "3.9L V8 Twin-Turbo",
+        "on_sale": false,
+        "discount_percentage": null,
+        "featured": true,
+        "category": "sport"
+    },
+    {
+        "id": 2,
+        "name": "Porsche 911 Turbo S",
+        "speed": "330 km/h",
+        "price": {
+        "old_price": null,
+        "current_price": "$207,000"
+        },
+        "images": {
+        "image1": "https://wallpaperaccess.com/full/328997.jpg",
+        "image2": "https://wallpaperaccess.com/full/2285973.jpg",
+        "image3": "https://wallpaperaccess.com/full/781732.jpg"
+        },
+        "year": 2021,
+        "brand": "Porsche",
+        "engine": "3.8L H6 Twin-Turbo",
+        "on_sale": false,
+        "discount_percentage": null,
+        "featured": true,
+        "category": "sport"
+    },
+    {
+        "id": 3,
+        "name": "Lamborghini Huracan",
+        "speed": "325 km/h",
+        "price": {
+        "old_price": "$230,000",
+        "current_price": "$215,000"
+        },
+        "images": {
+        "image1": "https://wallpaperaccess.com/full/3273203.jpg",
+        "image2": "https://wallpaperaccess.com/full/3331464.jpg",
+        "image3": "https://wallpaperaccess.com/full/3331475.jpg"
+        },
+        "year": 2021,
+        "brand": "Lamborghini",
+        "engine": "5.2L V10",
+        "on_sale": true,
+        "discount_percentage": 6.52,
+        "featured": true,
+        "category": "sport"
+    },
+    {
+        "id": 4,
+        "name": "McLaren 720S",
+        "speed": "341 km/h",
+        "price": {
+        "old_price": null,
+        "current_price": "$300,000"
+        },
+        "image": "https://example.com/images/mclaren_720s.jpg",
+        "year": 2021,
+        "brand": "McLaren",
+        "engine": "4.0L V8 Twin-Turbo",
+        "on_sale": false,
+        "discount_percentage": null,
+        "featured": false,
+        "category": "sport"
+    },
+    {
+        "id": 5,
+        "name": "Chevrolet Corvette C8",
+        "speed": "312 km/h",
+        "price": {
+        "old_price": "$70,000",
+        "current_price": "$60,000"
+        },
+        "image": "https://example.com/images/chevrolet_corvette_c8.jpg",
+        "year": 2021,
+        "brand": "Chevrolet",
+        "engine": "6.2L V8",
+        "on_sale": true,
+        "discount_percentage": 14.29,
+        "featured": true,
+        "category": "sport"
+    },
+    {
+        "id": 6,
+        "name": "Ford Mustang Shelby GT500",
+        "speed": "290 km/h",
+        "price": {
+        "old_price": null,
+        "current_price": "$70,000"
+        },
+        "image": "https://example.com/images/ford_mustang_shelby_gt500.jpg",
+        "year": 2021,
+        "brand": "Ford",
+        "engine": "5.2L V8 Supercharged",
+        "on_sale": false,
+        "discount_percentage": null,
+        "featured": true,
+        "category": "sport"
+    },
+    {
+        "id": 7,
+        "name": "Aston Martin Vantage",
+        "speed": "314 km/h",
+        "price": {
+        "old_price": "$139,000",
+        "current_price": "$130,000"
+        },
+        "image": "https://example.com/images/aston_martin_vantage.jpg",
+        "year": 2021,
+        "brand": "Aston Martin",
+        "engine": "4.0L V8 Twin-Turbo",
+        "on_sale": true,
+        "discount_percentage": 6.43,
+        "featured": true,
+        "category": "sport"
+    },
+    {
+        "id": 8,
+        "name": "Nissan GT-R Nismo",
+        "speed": "315 km/h",
+        "price": {
+        "old_price": "$215,000",
+        "current_price": "$200,000"
+        },
+        "image": "https://example.com/images/nissan_gt_r_nismo.jpg",
+        "year": 2021,
+        "brand": "Nissan",
+        "engine": "3.8L V6 Twin-Turbo",
+        "on_sale": true,
+        "discount_percentage": 6.98,
+        "featured": false,
+        "category": "sport"
+    },
+    {
+        "id": 9,
+        "name": "Jaguar F-Type R",
+        "speed": "300 km/h",
+        "price": {
+        "old_price": null,
+        "current_price": "$104,000"
+        },
+        "image": "https://example.com/images/jaguar_f_type_r.jpg",
+        "year": 2021,
+        "brand": "Jaguar",
+        "engine": "5.0L V8 Supercharged",
+        "on_sale": false,
+        "discount_percentage": null,
+        "featured": true,
+        "category": "sport"
+    },
+    {
+        "id": 10,
+        "name": "BMW M4 G82",
+        "speed": "290 km/h",
+        "price": {
+        "old_price": "$75,000",
+        "current_price": "$70,000"
+        },
+        "image": "https://example.com/images/bmw_m4_g82.jpg",
+        "year": 2021,
+        "brand": "BMW",
+        "engine": "3.0L Inline-6 Twin-Turbo",
+        "on_sale": true,
+        "discount_percentage": 6.67,
+        "featured": false,
+        "category": "sport"
+    },
+    {
+        "id": 11,
+        "name": "Yamaha YZF-R1",
+        "speed": "299 km/h",
+        "price": {
+        "old_price": null,
+        "current_price": "$17,999"
+        },
+        "image": "https://example.com/images/yamaha_yzf_r1.jpg",
+        "year": 2021,
+        "brand": "Yamaha",
+        "engine": "998cc Inline-4",
+        "on_sale": false,
+        "discount_percentage": null,
+        "featured": true,
+        "category": "bike"
+    },
+    {
+        "id": 12,
+        "name": "Suzuki GSX-R1000",
+        "speed": "300 km/h",
+        "price": {
+        "old_price": "$15,999",
+        "current_price": "$14,999"
+        },
+        "image": "https://example.com/images/suzuki_gsx_r1000.jpg",
+        "year": 2021,
+        "brand": "Suzuki",
+        "engine": "999cc Inline-4",
+        "on_sale": true,
+        "discount_percentage": 6.26,
+        "featured": false,
+        "category": "bike"
+    },
+    {
+        "id": 13,
+        "name": "Honda CBR1000RR-R Fireblade",
+        "speed": "299 km/h",
+        "price": {
+        "old_price": null,
+        "current_price": "$28,000"
+        },
+        "image": "https://example.com/images/honda_cbr1000rr_r_fireblade.jpg",
+        "year": 2021,
+        "brand": "Honda",
+        "engine": "999cc Inline-4",
+        "on_sale": false,
+        "discount_percentage": null,
+        "featured": true,
+        "category": "bike"
+    },
+    {
+        "id": 14,
+        "name": "Aprilia RSV4",
+        "speed": "300 km/h",
+        "price": {
+        "old_price": null,
+        "current_price": "$17,000"
+        },
+        "image": "https://example.com/images/aprilia_rsv4.jpg",
+        "year": 2021,
+        "brand": "Aprilia",
+        "engine": "1,099cc V4",
+        "on_sale": false,
+        "discount_percentage": null,
+        "featured": false,
+        "category": "bike"
+    },
+    {
+        "id": 15,
+        "name": "Triumph Speed Triple 1200 RS",
+        "speed": "250 km/h",
+        "price": {
+        "old_price": "$22,000",
+        "current_price": "$19,999"
+        },
+        "image": "https://example.com/images/triumph_speed_triple_1200_rs.jpg",
+        "year": 2021,
+        "brand": "Triumph",
+        "engine": "1,160cc Inline-3",
+        "on_sale": true,
+        "discount_percentage": 9.05,
+        "featured": true,
+        "category": "bike"
+    },
+    {
+        "id": 16,
+        "name": "MV Agusta Brutale 1000 RR",
+        "speed": "300 km/h",
+        "price": {
+        "old_price": null,
+        "current_price": "$29,000"
+        },
+        "image": "https://example.com/images/mv_agusta_brutale_1000_rr.jpg",
+        "year": 2021,
+        "brand": "MV Agusta",
+        "engine": "998cc Inline-4",
+        "on_sale": false,
+        "discount_percentage": null,
+        "featured": false,
+        "category": "bike"
+    },
+    {
+        "id": 17,
+        "name": "Ducati Panigale V4",
+        "speed": "300 km/h",
+        "price": {
+        "old_price": "$28,000",
+        "current_price": "$25,999"
+        },
+        "image": "https://example.com/images/ducati_panigale_v4.jpg",
+        "year": 2021,
+        "brand": "Ducati",
+        "engine": "1,103cc V4",
+        "on_sale": true,
+        "discount_percentage": 7.14,
+        "featured": true,
+        "category": "bike"
+    },
+    {
+        "id": 18,
+        "name": "Kawasaki Ninja H2",
+        "speed": "400 km/h",
+        "price": {
+        "old_price": "$32,000",
+        "current_price": "$29,500"
+        },
+        "image": "https://example.com/images/kawasaki_ninja_h2.jpg",
+        "year": 2021,
+        "brand": "Kawasaki",
+        "engine": "998cc Inline-4",
+        "on_sale": true,
+        "discount_percentage": 4.69,
+        "featured": true,
+        "category": "bike"
+    },
+    {
+        "id": 19,
+        "name": "BMW S1000RR",
+        "speed": "303 km/h",
+        "price": {
+        "old_price": null,
+        "current_price": "$21,000"
+        },
+        "image": "https://example.com/images/bmw_s1000rr.jpg",
+        "year": 2021,
+        "brand": "BMW",
+        "engine": "999cc Inline-4",
+        "on_sale": false,
+        "discount_percentage": null,
+        "featured": false,
+        "category": "bike"
+    },
+    {
+        "id": 20,
+        "name": "KTM RC 390",
+        "speed": "179 km/h",
+        "price": {
+        "old_price": null,
+        "current_price": "$6,499"
+        },
+        "image": "https://example.com/images/ktm_rc_390.jpg",
+        "year": 2021,
+        "brand": "KTM",
+        "engine": "373cc Single-Cylinder",
+        "on_sale": false,
+        "discount_percentage": null,
+        "featured": true,
+        "category": "bike"
+    },
+    {
+        "id": 21,
+        "name": "Toyota RAV4",
+        "speed": "200 km/h",
+        "price": {
+        "old_price": null,
+        "current_price": "$29,000"
+        },
+        "image": "https://example.com/images/toyota_rav4.jpg",
+        "year": 2021,
+        "brand": "Toyota",
+        "engine": "2.5L 4-Cylinder",
+        "on_sale": false,
+        "discount_percentage": null,
+        "featured": true,
+        "category": "suv"
+    },
+    {
+        "id": 22,
+        "name": "Honda CR-V",
+        "speed": "200 km/h",
+        "price": {
+        "old_price": null,
+        "current_price": "$28,000"
+        },
+        "image": "https://example.com/images/honda_crv.jpg",
+        "year": 2021,
+        "brand": "Honda",
+        "engine": "1.5L 4-Cylinder",
+        "on_sale": false,
+        "discount_percentage": null,
+        "featured": false,
+        "category": "suv"
+    },
+    {
+        "id": 23,
+        "name": "Ford Explorer",
+        "speed": "180 km/h",
+        "price": {
+        "old_price": "$40,000",
+        "current_price": "$35,000"
+        },
+        "image": "https://example.com/images/ford_explorer.jpg",
+        "year": 2021,
+        "brand": "Ford",
+        "engine": "2.3L 4-Cylinder",
+        "on_sale": true,
+        "discount_percentage": 12.5,
+        "featured": true,
+        "category": "suv"
+    },
+    {
+        "id": 24,
+        "name": "Chevrolet Tahoe",
+        "speed": "180 km/h",
+        "price": {
+        "old_price": null,
+        "current_price": "$50,000"
+        },
+        "image": "https://example.com/images/chevrolet_tahoe.jpg",
+        "year": 2021,
+        "brand": "Chevrolet",
+        "engine": "5.3L V8",
+        "on_sale": false,
+        "discount_percentage": null,
+        "featured": false,
+        "category": "suv"
+    },
+    {
+        "id": 25,
+        "name": "Nissan Rogue",
+        "speed": "180 km/h",
+        "price": {
+        "old_price": null,
+        "current_price": "$27,000"
+        },
+        "image": "https://example.com/images/nissan_rogue.jpg",
+        "year": 2021,
+        "brand": "Nissan",
+        "engine": "2.5L 4-Cylinder",
+        "on_sale": false,
+        "discount_percentage": null,
+        "featured": true,
+        "category": "suv"
+    },
+    {
+        "id": 26,
+        "name": "Subaru Forester",
+        "speed": "190 km/h",
+        "price": {
+        "old_price": null,
+        "current_price": "$28,000"
+        },
+        "image": "https://example.com/images/subaru_forester.jpg",
+        "year": 2021,
+        "brand": "Subaru",
+        "engine": "2.5L 4-Cylinder",
+        "on_sale": false,
+        "discount_percentage": null,
+        "featured": true,
+        "category": "suv"
+    },
+    {
+        "id": 27,
+        "name": "Hyundai Tucson",
+        "speed": "180 km/h",
+        "price": {
+        "old_price": null,
+        "current_price": "$24,000"
+        },
+        "image": "https://example.com/images/hyundai_tucson.jpg",
+        "year": 2021,
+        "brand": "Hyundai",
+        "engine": "2.0L 4-Cylinder",
+        "on_sale": false,
+        "discount_percentage": null,
+        "featured": true,
+        "category": "suv"
+    },
+    {
+        "id": 28,
+        "name": "Mazda CX-5",
+        "speed": "210 km/h",
+        "price": {
+        "old_price": "$29,000",
+        "current_price": "$27,000"
+        },
+        "image": "https://example.com/images/mazda_cx5.jpg",
+        "year": 2021,
+        "brand": "Mazda",
+        "engine": "2.5L 4-Cylinder",
+        "on_sale": true,
+        "discount_percentage": 6.9,
+        "featured": false,
+        "category": "suv"
+    },
+    {
+        "id": 29,
+        "name": "Kia Sportage",
+        "speed": "180 km/h",
+        "price": {
+        "old_price": null,
+        "current_price": "$26,000"
+        },
+        "image": "https://example.com/images/kia_sportage.jpg",
+        "year": 2021,
+        "brand": "Kia",
+        "engine": "2.4L 4-Cylinder",
+        "on_sale": false,
+        "discount_percentage": null,
+        "featured": true,
+        "category": "suv"
+    },
+    {
+        "id": 30,
+        "name": "Volkswagen Tiguan",
+        "speed": "200 km/h",
+        "price": {
+        "old_price": null,
+        "current_price": "$30,000"
+        },
+        "image": "https://example.com/images/volkswagen_tiguan.jpg",
+        "year": 2021,
+        "brand": "Volkswagen",
+        "engine": "2.0L 4-Cylinder",
+        "on_sale": false,
+        "discount_percentage": null,
+        "featured": true,
+        "category": "suv"
+    },
+    {
+        "id": 31,
+        "name": "Bugatti Chiron",
+        "speed": "420 km/h",
+        "price": {
+        "old_price": "$3,000,000",
+        "current_price": "$2,900,000"
+        },
+        "image": "https://example.com/images/bugatti_chiron.jpg",
+        "year": 2021,
+        "brand": "Bugatti",
+        "engine": "8.0L W16 Quad-Turbo",
+        "on_sale": true,
+        "discount_percentage": 3.33,
+        "featured": true,
+        "category": "super"
+    },
+    {
+        "id": 32,
+        "name": "Koenigsegg Agera RS",
+        "speed": "447 km/h",
+        "price": {
+        "old_price": null,
+        "current_price": "$2,500,000"
+        },
+        "image": "https://example.com/images/koenigsegg_agera_rs.jpg",
+        "year": 2021,
+        "brand": "Koenigsegg",
+        "engine": "5.0L V8 Twin-Turbo",
+        "on_sale": false,
+        "discount_percentage": null,
+        "featured": true,
+        "category": "super"
+    },
+    {
+        "id": 33,
+        "name": "Pagani Huayra",
+        "speed": "370 km/h",
+        "price": {
+        "old_price": "$3,400,000",
+        "current_price": "$3,200,000"
+        },
+        "image": "https://example.com/images/pagani_huayra.jpg",
+        "year": 2021,
+        "brand": "Pagani",
+        "engine": "6.0L V12 Twin-Turbo",
+        "on_sale": true,
+        "discount_percentage": 5.88,
+        "featured": true,
+        "category": "super"
+    },
+    {
+        "id": 34,
+        "name": "Ferrari LaFerrari",
+        "speed": "350 km/h",
+        "price": {
+        "old_price": "$1,500,000",
+        "current_price": "$1,450,000"
+        },
+        "image": "https://example.com/images/ferrari_laferrari.jpg",
+        "year": 2021,
+        "brand": "Ferrari",
+        "engine": "6.3L V12",
+        "on_sale": true,
+        "discount_percentage": 3.33,
+        "featured": false,
+        "category": "super"
+    },
+    {
+        "id": 35,
+        "name": "McLaren P1",
+        "speed": "350 km/h",
+        "price": {
+        "old_price": "$1,150,000",
+        "current_price": "$1,050,000"
+        },
+        "image": "https://example.com/images/mclaren_p1.jpg",
+        "year": 2021,
+        "brand": "McLaren",
+        "engine": "3.8L V8 Twin-Turbo",
+        "on_sale": true,
+        "discount_percentage": 8.69,
+        "featured": false,
+        "category": "super"
+    },
+    {
+        "id": 36,
+        "name": "Lamborghini Centenario",
+        "speed": "350 km/h",
+        "price": {
+        "old_price": null,
+        "current_price": "$2,000,000"
+        },
+        "image": "https://example.com/images/lamborghini_centenario.jpg",
+        "year": 2021,
+        "brand": "Lamborghini",
+        "engine": "6.5L V12",
+        "on_sale": true,
+        "discount_percentage": 10,
+        "featured": false,
+        "category": "super"
+    },
+    {
+        "id": 37,
+        "name": "Aston Martin Valkyrie",
+        "speed": "400 km/h",
+        "price": {
+        "old_price": "$3,000,000",
+        "current_price": "$2,800,000"
+        },
+        "image": "https://example.com/images/aston_martin_valkyrie.jpg",
+        "year": 2021,
+        "brand": "Aston Martin",
+        "engine": "6.5L V12",
+        "on_sale": true,
+        "discount_percentage": 6.67,
+        "featured": true,
+        "category": "super"
+    },
+    {
+        "id": 38,
+        "name": "Pagani Zonda",
+        "speed": "350 km/h",
+        "price": {
+        "old_price": "$2,000,000",
+        "current_price": "$1,800,000"
+        },
+        "image": "https://example.com/images/pagani_zonda.jpg",
+        "year": 2021,
+        "brand": "Pagani",
+        "engine": "7.3L V12",
+        "on_sale": true,
+        "discount_percentage": 10,
+        "featured": false,
+        "category": "super"
+    },
+    {
+        "id": 39,
+        "name": "Bugatti Veyron",
+        "speed": "407 km/h",
+        "price": {
+        "old_price": null,
+        "current_price": "$2,500,000"
+        },
+        "image": "https://example.com/images/bugatti_veyron.jpg",
+        "year": 2021,
+        "brand": "Bugatti",
+        "engine": "8.0L W16 Quad-Turbo",
+        "on_sale": false,
+        "discount_percentage": null,
+        "featured": false,
+        "category": "super"
+    },
+    {
+        "id": 40,
+        "name": "Mercedes-AMG One",
+        "speed": "352 km/h",
+        "price": {
+        "old_price": null,
+        "current_price": "$2,700,000"
+        },
+        "image": "https://example.com/images/mercedes_amg_one.jpg",
+        "year": 2021,
+        "brand": "Mercedes-Benz",
+        "engine": "1.6L V6 Hybrid",
+        "on_sale": true,
+        "discount_percentage": 5.56,
+        "featured": true,
+        "category": "super"
+    }
+    ]
