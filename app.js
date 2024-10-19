@@ -1,7 +1,9 @@
 const express = require('express')
+const cors = require('cors')
 const app = express()
 const vehicles = require('./data/vehicles.json')
 
+app.use(cors())
 app.get('/vehicles', (req, res) => res.json(vehicles))
 
 app.get('/category/:category', (req, res) => {
